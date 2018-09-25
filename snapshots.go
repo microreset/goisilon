@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"path"
 
-	api "github.com/thecodeteam/goisilon/api/v1"
+	api "github.com/microreset/goisilon/api/v1"
 )
 
 type SnapshotList []*api.IsiSnapshot

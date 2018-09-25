@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/thecodeteam/goisilon/api"
+	"github.com/microreset/goisilon/api"
 	"context"
 )
 

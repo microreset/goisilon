@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/thecodeteam/goisilon/api"
+	"github.com/microreset/goisilon/api"
 )
 
 // Client is an Isilon client.

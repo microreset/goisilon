@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	api "github.com/thecodeteam/goisilon/api/v2"
+	api "github.com/microreset/goisilon/api/v2"
 )
 
 func TestGetVolumeACL(t *testing.T) {

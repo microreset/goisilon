@@ -3,7 +3,7 @@ package goisilon
 import (
 	"context"
 
-	api "github.com/thecodeteam/goisilon/api/v2"
+	api "github.com/microreset/goisilon/api/v2"
 )
 
 type ACL *api.ACL
