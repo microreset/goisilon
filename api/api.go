@@ -179,16 +179,18 @@ func New(
 	}
 
 	if resp.Latest != nil {
+
 	c.apiv = 5
-//	i, err := strconv.ParseFloat(*resp.Latest, 64)
-//	if err != nil {
-//		return nil, err
-//	}
-//	c.apiv = uint8(i)
-//} else {
-//	c.apiv = 2
-//}
-//
+
+	// i, err := strconv.ParseFloat(*resp.Latest, 64)
+	// if err != nil {
+	// 	return nil, err
+	// }
+	// c.apiv = uint8(i)
+	} else {
+		c.apiv = 2
+	}
+
 	return c, nil
 }
 
